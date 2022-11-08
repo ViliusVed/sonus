@@ -27,3 +27,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+
+## Used Links
+
+
+https://getbootstrap.com/
+https://www.w3schools.com/icons/fontawesome_icons_intro.asp
