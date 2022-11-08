@@ -33,3 +33,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 https://getbootstrap.com/
 https://www.w3schools.com/icons/fontawesome_icons_intro.asp
+https://fontawesome.com/icons
