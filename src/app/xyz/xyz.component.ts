@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl} from '@angular/forms';
 
 @Component({
   selector: 'app-xyz',
@@ -6,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./xyz.component.scss']
 })
 export class XyzComponent implements OnInit {
+  
+  loginForm = new FormGroup({
+    id: new FormControl(''),
+password: new FormControl(''),
+  });
 
   type: string = "password";
   isText: boolean = false;
@@ -15,10 +21,14 @@ export class XyzComponent implements OnInit {
   ngOnInit(): void {
   }
 
+onSubmit():void{
+  console.log(this.loginForm.value);
+}
+
   hideShowPass() {
     this.isText = !this.isText;
     this.isText ? this.eyeIcon = "fa-eye" : this.eyeIcon = "fa-eye-slash";
-    this.isText ? this.type = "text" : this.type = "password";
+    this.isText ? this.type = "text" : this.type = "Password";
   }
 
 }
